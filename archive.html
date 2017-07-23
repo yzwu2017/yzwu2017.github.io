@@ -5,23 +5,19 @@ description: "Never stop studying."
 header-img: "img/page-bg-02.jpg"
 ---
 
-
-<div class="container">
-	<div class="row">
-        <div class="col-sm-6 col-sm-offset-3">
-            <div id="imaginary_container"> 
-                <div class="input-group stylish-input-group">
-                    <input type="text" class="form-control"  placeholder="Search" >
-                    <span class="input-group-addon">
-                        <button type="submit">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>  
-                    </span>
-                </div>
-            </div>
-        </div>
-	</div>
-</div>
+<!--Google CSE-->
+<script>
+  (function() {
+    var cx = '002206906802909852911:g314zvbgz9k';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<div><gcse:search></gcse:search></div>
 
 
 
@@ -39,6 +35,7 @@ header-img: "img/page-bg-02.jpg"
 </script>
 <gcse:search></gcse:search>
 -->
+
 
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
