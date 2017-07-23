@@ -5,6 +5,19 @@ description: "Never stop studying."
 header-img: "img/page-bg-02.jpg"
 ---
 
+
+<div class="container-fluid">
+<form  method="get" action="/search" class="navbar-form navbar-left" role="search">
+  <div class="form-group">
+	<input name='q' type="text" class="form-control" placeholder="Search"></input>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+
+
+<!--Google CSE
 <script>
   (function() {
     var cx = '002206906802909852911:g314zvbgz9k';
@@ -17,7 +30,7 @@ header-img: "img/page-bg-02.jpg"
   })();
 </script>
 <gcse:search></gcse:search>
-
+-->
 
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
