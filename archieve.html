@@ -11,7 +11,7 @@ header-img: "img/page-bg-02.jpg"
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
     {% assign current_year = y %}
-    <li style="list-style-type: none;">{{ y }}</li>
+    <li style="list-style-type: none;"><strong>{{ y }}</strong></li>
   {% endif %}
   <li>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
