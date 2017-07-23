@@ -34,9 +34,9 @@ header-img: "img/post-bg-01.jpg"
 	<th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> 
 </tr> </thead> 
 <tbody> <tr> 
-	<th>1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> 
-	<th>2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> 
-	<th>3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td>
+	<th>1</th> <td>Michael</td> <td>Lee</td> <td>@mikelee</td> </tr> <tr> 
+	<th>2</th> <td>John</td> <td>Smith</td> <td>@johnsmt</td> </tr> <tr> 
+	<th>3</th> <td>Terry</td> <td>Woods</td> <td>@terrywds</td>
 </tr> </tbody> 
 </table>
 
@@ -58,7 +58,7 @@ header-img: "img/post-bg-01.jpg"
 
 <h2 class="section-heading">About Adding an Image</h2>
 
-<p>We can add an image like: </p>
+<p>You can add an image like: </p>
 
 <a href="#">
     <img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="400" height="400" alt="Post Sample Image">
