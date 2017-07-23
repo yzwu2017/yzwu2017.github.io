@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How to Write a Post with HTML"
+title:      "How to Write a Post"
 date:       2017-07-23 03:53:00
 author:     "Yuzhong Wu"
 header-img: "img/post-bg-01.jpg"
