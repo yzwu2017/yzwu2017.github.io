@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "CV"
-description: "Yuzhong's Curriculum Vitae."
+title: "Resume"
+description: "Yuzhong's Resume."
 header-img: "img/page-bg-02.jpg"
 ---
 
