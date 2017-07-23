@@ -12,7 +12,7 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 <style>
     .cse .gsc-search-button input.gsc-search-button-v2,
     input.gsc-search-button-v2 {
-        height: 26px !important;
+        height: 30px !important;
         margin-top: 0 !important;
         min-width: 13px !important;
         padding: 5px 26px !important;
