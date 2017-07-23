@@ -5,9 +5,8 @@ The following parts are under construction:
 * Adding photo album page.
 * ...
 
-
-# Test
-Test the font size.
+### Test
+test size.
 
 ## Thanks
 
