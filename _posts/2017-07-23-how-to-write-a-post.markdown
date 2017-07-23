@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "How to Write a Post"
+title:      "How to Write a Post with HTML"
 date:       2017-07-23 03:53:00
 author:     "Yuzhong Wu"
 header-img: "img/post-bg-01.jpg"
@@ -8,7 +8,7 @@ header-img: "img/post-bg-01.jpg"
 
 <p>This post will show some basic things you will use when writting a post.</p>
 
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be with underlines.</p>
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>.
 
 <h2 class="section-heading">About Lists and Tables</h2>
 
