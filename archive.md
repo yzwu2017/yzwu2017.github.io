@@ -70,7 +70,7 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 {% endfor %}
 
 
-<!-- Style for relatively small amount of posts
+<!-- Style for relatively small amount of posts (for HTML)
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
@@ -85,7 +85,7 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 -->
 
 
-<!-- Style for large amount of posts
+<!-- Style for large amount of posts (for HTML)
 <ul>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
