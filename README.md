@@ -18,3 +18,4 @@ The blog uses many tools/services,many thanks to:
 * [Markdown](https://daringfireball.net/projects/markdown/), a beautiful lightweight markup language.
 * [Bootstrap](http://getbootstrap.com), A popular HTML, CSS, and JS framework for developing websites.
 * [SnapWidget](https://snapwidget.com/), A widget for automatically displaying your content from Instagram, Twitter and Facebook.
+* [Disqus](https://disqus.com/), A popular web’s commenting system.
