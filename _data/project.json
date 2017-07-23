@@ -1,0 +1,30 @@
+[
+	{
+		"name": "My project 1",
+		"image": "github-icon-placeholder.jpg",
+		"url": "#",
+		"date": "Jan 2017",
+		"tags": ["Machine Learning","API"]
+	},
+	{
+		"name": "My project 2",
+		"image": "github-icon-placeholder.jpg",
+		"url": "#",
+		"date": "May 2017",
+		"tags": ["Python","HTML"]
+	},
+	{
+		"name": "My project 3",
+		"image": "github-icon-placeholder.jpg",
+		"url": "#",
+		"date": "June 2017",
+		"tags": ["HTML","Matlab","C"]
+	},
+	{
+		"name": "My project 4",
+		"image": "github-icon-placeholder.jpg",
+		"date": "Jul 2017",
+		"tags": ["Android","HTML"]
+	}
+
+]
