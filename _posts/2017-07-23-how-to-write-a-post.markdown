@@ -8,7 +8,7 @@ header-img: "img/post-bg-01.jpg"
 
 <p>This post will show some basic things you will use when writting a post.</p>
 
-<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be blue with no underlines (unless hovered over).</p>
+<p>Text can be <strong>bold</strong>, <em>italic</em>, or <del>strikethrough</del>. <a href="https://github.com">Links</a> should be with underlines.</p>
 
 <h2 class="section-heading">About Lists and Tables</h2>
 
@@ -34,9 +34,9 @@ header-img: "img/post-bg-01.jpg"
 	<th>#</th> <th>First Name</th> <th>Last Name</th> <th>Username</th> 
 </tr> </thead> 
 <tbody> <tr> 
-	<th scope=row>1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> 
-	<th scope=row>2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> 
-	<th scope=row>3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td>
+	<th>1</th> <td>Mark</td> <td>Otto</td> <td>@mdo</td> </tr> <tr> 
+	<th>2</th> <td>Jacob</td> <td>Thornton</td> <td>@fat</td> </tr> <tr> 
+	<th>3</th> <td>Larry</td> <td>the Bird</td> <td>@twitter</td>
 </tr> </tbody> 
 </table>
 
@@ -61,7 +61,7 @@ header-img: "img/post-bg-01.jpg"
 <p>We can add an image like: </p>
 
 <a href="#">
-    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="120" height="120" alt="Post Sample Image">
+    <img src="{{ site.baseurl }}/img/post-sample-image.jpg" width="400" height="400" alt="Post Sample Image">
 </a>
 <span class="caption text-muted">The photo is taken in Owakudani, Hakone, Japan</span>
 
