@@ -5,24 +5,20 @@ description: ""
 header-img: "img/page-bg-02.jpg"
 ---
 
-
-<ul>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
     {% assign current_year = y %}
-    <li style="list-style-type: none;"><strong>{{ y }}</strong></li>
+    <h3>{{ y }}</h3>
   {% endif %}
-  <li>
+  <p>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a style="color:blue;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </li>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </p>
 {% endfor %}
-</ul>
 
 
-
-<!-- Style for small amount of posts
+<!-- Style for relatively small amount of posts
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
@@ -37,19 +33,17 @@ header-img: "img/page-bg-02.jpg"
 -->
 
 
-
-
 <!-- Style for large amount of posts
 <ul>
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
     {% assign current_year = y %}
-    <li style="list-style-type: none;">{{ y }}</li>
+    <li style="list-style-type: none;"><strong>{{ y }}</strong></li>
   {% endif %}
   <li>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+    <a style="color:blue;" href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
   </li>
 {% endfor %}
 </ul>
