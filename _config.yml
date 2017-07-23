@@ -1,0 +1,34 @@
+# Site settings
+title: Yuzhong Wu
+header-img: img/home-bg.jpg
+description: "This is Yuzhong's Blog."
+
+# About/contact
+owner_name: yzwu 
+email: yzwuee@gmail.com
+
+# Site url settings
+baseurl: ""
+url: "http://yzwu2017.github.io"
+
+# twitter_username: 
+github_username:  yzwu2017
+# facebook_username:  
+email_username:  yzwuee@gmail.com
+
+
+# Widget id for displaying photos from instagram.
+snapwidget: 413057
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+google_tracking_id:  UA-103050533-2
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
