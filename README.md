@@ -5,8 +5,6 @@ The following parts are under construction:
 * Adding photo album page.
 * ...
 
-### Test
-test size.
 
 ## Thanks
 
