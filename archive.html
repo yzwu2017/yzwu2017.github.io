@@ -61,7 +61,7 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
   {% if current_year != y %}
     {% assign current_year = y %}
-    {{## y }}
+    <h3>{{ y }}</h3>
   {% endif %}
   <p>
     <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
