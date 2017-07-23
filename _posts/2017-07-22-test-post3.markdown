@@ -3,7 +3,7 @@ layout:     post
 title:      "Test Post3"
 date:       2017-07-22 13:25:00
 author:     "Yuzhong Wu"
-header-img: "img/tokyo_tower.jpg"
+header-img: "img/ueno_2.jpg"
 ---
 
 <p>This is a test post.</p>

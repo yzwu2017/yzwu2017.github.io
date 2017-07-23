@@ -1,11 +1,28 @@
 ---
 layout: page
-title:      "Archieve"
+title: "Archieve"
 description: ""
+header-img: "img/page-bg-02.jpg"
 ---
 
 
+{% for post in site.posts %}
+  {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
+  {% if current_year != y %}
+    {% assign current_year = y %}
+    <h4>{{ y }}</h4>
+  {% endif %}
+  <p>
+    <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+  </p>
+{% endfor %}
 
+
+
+
+
+<!--
 <ul class="listing">
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
@@ -19,3 +36,4 @@ description: ""
   </li>
 {% endfor %}
 </ul>
+-->
