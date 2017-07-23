@@ -1,8 +1,7 @@
 
 ## Planning
 The following parts are under construction:
-* Adding tags to articles and a page which can search articles by their tags.
-* Adding comment module.
+* Adding search function.
 * Adding photo album page.
 * ...
 
