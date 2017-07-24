@@ -39,8 +39,10 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 <form action="/search.html" method="get">
 	<label for="search_box">Search</label>
 	<input type="text" id="search_box" name="query">
-	<input type="submit" value="search">
+	<button type="submit" class="btn"><i class="icon-search"></i></button>
 </form>
+
+
 
 {% for post in site.posts %}
   {% capture y %}{{post.date | date:"%Y"}}{% endcapture %}
