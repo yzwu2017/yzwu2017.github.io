@@ -3,7 +3,7 @@ layout:     post
 title:      "How to Write a Post"
 date:       2017-07-23 03:53:00
 author:     "Yuzhong Wu"
-header-img: "img/post-bg-01.jpg"
+header-img: "img/color_strip/deep-blue.jpg"
 comments: true
 ---
 
