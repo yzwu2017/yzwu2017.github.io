@@ -7,10 +7,3 @@ header-img: "img/post-bg-01.jpg"
 ---
 
 <p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>
-<p>This is a test post.</p>

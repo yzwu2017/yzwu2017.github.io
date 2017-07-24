@@ -1,9 +1,0 @@
----
-layout:     post
-title:      "Test Post4"
-date:       2017-07-22 13:25:00
-author:     "Yuzhong Wu"
-header-img: "img/ueno_2.jpg"
----
-
-<p>This is a test post.</p>
