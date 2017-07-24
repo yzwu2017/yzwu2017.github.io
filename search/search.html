@@ -1,7 +1,7 @@
 ---
 layout: search
 ---
-<form action="search/search.html" method="get">
+<form action="/search/search.html" method="get">
   <label for="search-box">Search</label>
   <input type="text" id="search-box" name="query">
   <input type="submit" value="search">
@@ -23,5 +23,5 @@ layout: search
     {% endfor %}
   };
 </script>
-<script src="/js/lunr.min.js"></script>
-<script src="/js/search.js"></script>
+<script src="/search/js/lunr.min.js"></script>
+<script src="/search/js/search.js"></script>
