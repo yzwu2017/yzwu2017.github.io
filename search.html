@@ -13,15 +13,11 @@ permalink: search.html
 	border-color:#ccc;
 	font-size:18px;
 }
-.stylish-input-group button{
-    border:0;
-    background:transparent;
-}
 </style>
 <form action="/search.html" method="get">
 	<label for="search-box"></label>
-	<input type="text" id="search-box" name="query" placeholder="Search">
-	<button type="submit" style="background:transparent;">
+	<input type="text" class="form-control" id="search-box" name="query" placeholder="Search">
+	<button type="submit" style="border:0;background:transparent;">
 		<span class="glyphicon glyphicon-search"></span>
 	</button>  
 </form>
