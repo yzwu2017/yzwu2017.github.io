@@ -2,7 +2,7 @@
 ## Planning
 The following parts are under construction:
 * Adding search function without Ads.
-* Adding photo album page.
+* [optional] Adding photo album page.
 * ...
 
 
