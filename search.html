@@ -2,10 +2,30 @@
 layout: page
 permalink: search.html  
 ---
+
+<style>
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+	font-size:18px;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+</style>
 <form action="/search.html" method="get">
-  <label for="search-box">Search</label>
-  <input type="text" id="search-box" name="query" placeholder="Search">
-  <input type="submit" value="search">
+	<label for="search-box"></label>
+	<input type="text" id="search-box" name="query" placeholder="Search">
+	<span class="input-group-addon">
+		<button type="submit">
+			<span class="glyphicon glyphicon-search"></span>
+		</button>  
+	</span>
 </form>
 
 <ul id="search-results"></ul>
