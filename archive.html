@@ -37,11 +37,10 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 
 <!--search bar using lunr, see details in https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/ -->
 <form action="/search.html" method="get">
-	<label for="search_box">Search</label>
+	<label for="search_box"></label>
 	<input type="text" id="search_box" name="query">
-	<span type="submit" class="glyphicon glyphicon-search"></span>
+	<a type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></a>
 </form>
-
 
 
 {% for post in site.posts %}
