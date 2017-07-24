@@ -2,11 +2,34 @@
 layout: page
 permalink: search.html  
 ---
+
+<!--search bar using lunr, see details in https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/ -->
+<style>
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+</style>
 <form action="/search.html" method="get">
-  <label for="search-box">Search</label>
-  <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
+	<div class="input-group stylish-input-group">
+		<label for="search_box"></label>
+		<input type="text" class="form-control" id="search_box" name="query" placeholder="Search" >
+		<span class="input-group-addon">
+			<button type="submit">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>  
+		</span>
+	</div>
 </form>
+
 
 <ul id="search-results"></ul>
 
