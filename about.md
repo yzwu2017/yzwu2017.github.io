@@ -3,6 +3,7 @@ layout: page
 title: "About Me"
 description: "This is what I do."
 header-img: "img/page-bg-01.jpg"
+permalink: about.html  
 ---
 
 I am currently a PhD Candidate in CUHK.
