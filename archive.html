@@ -36,10 +36,24 @@ http://www.bloggerguider.com/2015/06/how-to-customize-google-custom-search.html
 -->
 
 <!--search bar using lunr, see details in https://learn.cloudcannon.com/jekyll/jekyll-search-using-lunr-js/ -->
+<style>
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+</style>
 <form action="/search.html" method="get">
 	<div class="input-group stylish-input-group">
 		<label for="search_box"></label>
-		<input type="text" id="search_box" name="query" placeholder="Search" >
+		<input type="text" class="form-control" id="search_box" name="query" placeholder="Search" >
 		<span class="input-group-addon">
 			<button type="submit">
 				<span class="glyphicon glyphicon-search"></span>
