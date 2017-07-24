@@ -4,20 +4,9 @@ permalink: search.html
 header-img: "img/page-bg-02.jpg"
 ---
 
-<style>
-.stylish-input-group .input-group-addon{
-    background: white !important; 
-}
-.stylish-input-group .form-control{
-	width:20px;
-	box-shadow:0 0 0; 
-	border-color:#ccc;
-	font-size:18px;
-}
-</style>
 <form action="/search.html" method="get">
 	<label for="search-box"></label>
-	<input type="text" class="form-control" id="search-box" name="query" placeholder="Search">
+	<input type="text" style="width:20px;box-shadow:0 0 0;border-color:#ccc;font-size:18px;" id="search-box" name="query" placeholder="Search">
 	<button type="submit" style="border:0;background:transparent;">
 		<span class="glyphicon glyphicon-search"></span>
 	</button>  
