@@ -3,7 +3,7 @@ layout: page
 permalink: search.html  
 header-img: "img/page-bg-02.jpg"
 ---
-
+<!--
 <form action="/search.html" method="get">
 	<div>
 	<label for="search-box"></label>
@@ -13,9 +13,22 @@ header-img: "img/page-bg-02.jpg"
 	</button>  
 	</div>
 </form>
+-->
 
-<ul id="search-results"></ul>
-	
+<form action="/search.html" method="get">
+	<div class="input-group stylish-input-group">
+		<label for="search_box"></label>
+		<input type="text" class="form-control" id="search-box" name="query" placeholder="Search">
+		<span class="input-group-addon">
+			<button type="submit">
+				<span class="glyphicon glyphicon-search"></span>
+			</button>  
+		</span>
+	</div>
+</form>
+
+<ul class="list-unstyled" id="search-results"></ul>
+
 <script>
   window.store = {
 	{% for post in site.posts %}
