@@ -19,5 +19,5 @@ I am currently a PhD Candidate in CUHK.
 <left>
     <p>Contact Me</p>
 </left>
-- Blog: [ember2017.github.io](https://ember2017.github.io/)
+- Blog: [yzwu2017.github.io](https://yzwu2017.github.io/)
 - Email: [yzwuee@gmail.com](yzwuee@gmail.com)
