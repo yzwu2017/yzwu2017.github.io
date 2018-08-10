@@ -46,7 +46,7 @@ comments: true
 
 <p>Sometimes you may need to quote something. You can quote like: </p>
 
-<blockquote>I am the rose of Sharon, and the lily of the valleys.</blockquote>
+<blockquote>quote content. </blockquote>
 
 <p>Or like: </p>
 
