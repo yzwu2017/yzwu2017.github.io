@@ -1,7 +1,6 @@
 
 ## Planning
 The following parts are under construction:
-* Search toolbar seems to display improperly on iphones.
 * [optional] Adding a photo album page.
 * ...
 
