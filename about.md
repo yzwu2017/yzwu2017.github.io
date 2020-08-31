@@ -11,8 +11,8 @@ I am currently a PhD candidate in The Chinese University of Hong Kong.
     <p>Research Interests</p>
 </left>
 - Audio Signal Analysis
--- Acoustic Scene Classification
--- Audio Tagging
+    - Acoustic Scene Classification
+    - Audio Tagging
 - Speech Signal Processing
 - Machine Learning
 
