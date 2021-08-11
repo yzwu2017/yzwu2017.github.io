@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Resume"
-description: "Yuzhong's Resume."
+description: "Stay Hungry, Stay Foolish."
 header-img: "img/page-bg-02.jpg"
 ---
 
