@@ -1,20 +1,18 @@
 ---
 layout: page
 title: "About Me"
-description: "This is what I do."
+description: " "
 header-img: "img/page-bg-01.jpg"
 ---
 
-I am currently a PhD candidate in The Chinese University of Hong Kong.
+I received my B.Eng. and Ph.D. degrees in Electronic Engineering from the Chinese University of Hong Kong (CUHK), in 2016 and 2021 respectively. 
 
 <left>
     <p>Research Interests</p>
 </left>
-- Audio Signal Analysis
-    - Acoustic Scene Classification
-    - Audio Tagging
-- Speech Signal Processing
-- Machine Learning
+- Acoustic Scene Classification
+- Audio Signal Processing
+- Deep Learning
 
 
 
