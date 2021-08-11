@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "About Me"
-description: " "
+description: "Never stop studying."
 header-img: "img/page-bg-01.jpg"
 ---
 
