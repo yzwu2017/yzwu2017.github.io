@@ -7,7 +7,7 @@ The following parts are under construction:
 
 ## Thanks
 
-The blog uses many tools/services,many thanks to:
+The blog uses many tools/services, many thanks to:
 
 * [Jekyll](http://jekyllrb.com/), a static site generator;
 * [Clean Blog Theme](https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll), a theme by Start Bootstrap;
