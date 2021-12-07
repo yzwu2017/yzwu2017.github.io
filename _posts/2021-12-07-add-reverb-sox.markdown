@@ -17,8 +17,6 @@ comments: true
 sox input.wav output.wav reverb 50 50 100 100 0 0
 ```
 
-<br />
-
 <p>Usage</p>
 ```sh
 sox input.wav output.wav reverb [reverberance_% 0~100] [hf_damping_% 0~100] [room_scale_% 0~100] [stere_depth_% 0~100] [pre_delay_ms 0~500] [wet_gain_db -10~10]
