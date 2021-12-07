@@ -17,6 +17,8 @@ comments: true
 sox input.wav output.wav reverb 50 50 100 100 0 0
 ```
 
+<br />
+
 <p>Usage</p>
 ```sh
 sox input.wav output.wav reverb [reverberance_% 0~100] [hf_damping_% 0~100] [room_scale_% 0~100] [stere_depth_% 0~100] [pre_delay_ms 0~500] [wet_gain_db -10~10]
@@ -31,12 +33,12 @@ sox input.wav output.wav reverb [reverberance_% 0~100] [hf_damping_% 0~100] [roo
 	<li>pre-delay (早反射声的时间，单位是ms): the amount of time between the original sound and the audible onset of early reflections. </li>
     <li>wet-gain (湿声增益): a dry signal means the original signal; a wet signal means the resulted signal.  </li>
 </ul>
-
+<br />
 Reference: http://sox.sourceforge.net/sox.html
 
 
-
-
+<br />
+<br />
 
 **Readings**
 
