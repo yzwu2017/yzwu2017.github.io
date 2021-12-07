@@ -40,9 +40,11 @@ Reference: http://sox.sourceforge.net/sox.html
 
 **Readings**
 
-Breaking down the behavior of reverb: https://www.redsharknews.com/audio/item/4150-breaking-down-the-behaviour-of-reverb
+Breaking down the behavior of reverb: 
+https://www.redsharknews.com/audio/item/4150-breaking-down-the-behaviour-of-reverb
 
-Handbook for acoustic ecology - reverberation: http://www.sfu.ca/sonic-studio-webdav/cmns/Handbook%20Tutorial/Reverberation.html
+Handbook for acoustic ecology - reverberation: 
+http://www.sfu.ca/sonic-studio-webdav/cmns/Handbook%20Tutorial/Reverberation.html
 
 
 
