@@ -48,10 +48,9 @@ x = torch.randn(5, 3, 224, 224)
 model_onnx_path = "./nnet.onnx"
 torch.onnx.export(model, x, model_onnx_path, opset_version=20) # If opset_version is too new, the onnx.shape_inference may not work. 
  
-# use onnx.shape_inference to make later netron visualization show intermediate layers' feature map size
 import onnx
 from onnx import shape_inference
-onnx.save(onnx.shape_inference.infer_shapes(onnx.load(model_onnx_path)), model_onnx_path)
+onnx.save(onnx.shape_inference.infer_shapes(onnx.load(model_onnx_path)), model_onnx_path) # use onnx.shape_inference to make later netron visualization show intermediate layers' feature map size
 
 netron.start(model_onnx_path)
 ~~~
@@ -94,7 +93,8 @@ from torchviz import make_dot
 model = Net()
 X = torch.randn(5, 8)
 y = model(X)
-vis_graph = make_dot(y.mean(), params=dict(model.named_parameters()))
+vis_graph = make_dot(y.mean(), params=dict(model.named_parameters()), show_attrs=True, show_saved=True)
+
 
 # save visualization result
 vis_graph.format = 'png'
@@ -105,8 +105,8 @@ vis_graph.render('model_arch')
     <img src="{{ site.baseurl }}/img/2024-08-17-neural-network-visualization/torchviz_plot_example.png" width="" height="" alt="torchviz model visualization">
 </a>
 
-如果要观察更详细的autograd为反向传播保存的信息，可以这样来使用make_dot（加两个输入参数）：
+如果不想显示那么多内容，可以选择不在make_dot中设置show_attrs和show_saved：
 ~~~python
-vis_graph = make_dot(y.mean(), params=dict(model.named_parameters()), show_attrs=True, show_saved=True)
+vis_graph = make_dot(y.mean(), params=dict(model.named_parameters()))
 ~~~
 
