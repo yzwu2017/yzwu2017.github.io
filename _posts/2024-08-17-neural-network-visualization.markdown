@@ -47,7 +47,7 @@ model = vgg16()
 x = torch.randn(5, 3, 224, 224)
 model_onnx_path = "./nnet.onnx"
 torch.onnx.export(model, x, model_onnx_path, opset_version=20) # If opset_version is too new, the onnx.shape_inference may not work. 
- 
+
 import onnx
 from onnx import shape_inference
 onnx.save(onnx.shape_inference.infer_shapes(onnx.load(model_onnx_path)), model_onnx_path) # use onnx.shape_inference to make later netron visualization show intermediate layers' feature map size
@@ -85,20 +85,15 @@ class Net(nn.Module):
         x = torch.relu(self.input(x))
         x = torch.relu(self.hidden_1(x))
         return self.output(x)
-# model = Net()
-# print(model)
 
-# visulizaiton using torchviz
 from torchviz import make_dot
 model = Net()
 X = torch.randn(5, 8)
 y = model(X)
 vis_graph = make_dot(y.mean(), params=dict(model.named_parameters()), show_attrs=True, show_saved=True)
 
-
-# save visualization result
 vis_graph.format = 'png'
-vis_graph.render('model_arch')
+vis_graph.render('model_arch') # save visualization result 
 ~~~
 执行完脚本后，应该会生成一个叫model_arch.png的图片，如下图：
 <a>
