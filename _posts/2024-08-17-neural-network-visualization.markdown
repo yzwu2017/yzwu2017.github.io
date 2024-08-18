@@ -32,7 +32,7 @@ torch.onnx.export(model, x, model_onnx_path)
 netron.start(model_onnx_path)
 ~~~
 执行这个test_netron.py脚本，会自动打开电脑的网页浏览器，有一个页面显示网络结构：
-<a href="">
+<a>
     <img src="../img/posts_img/netron_plot_example.png" width="" height="" alt="Netron plot NN structure">
 </a>
 
@@ -57,7 +57,7 @@ netron.start(model_onnx_path)
 ~~~
 
 执行脚本后应该可以看到可视化结果额外显示了中间层输出的feature map尺寸（红圈处）：
-<a href="">
+<a>
     <img src="../img/posts_img/netron_plot_example2.png" width="" height="" alt="Netron plot NN structure">
 </a>
 
@@ -101,7 +101,7 @@ vis_graph.format = 'png'
 vis_graph.render('model_arch')
 ~~~
 执行完脚本后，应该会生成一个叫model_arch.png的图片，如下图：
-<a href="">
+<a>
     <img src="../img/posts_img/torchviz_plot_example.png" width="" height="" alt="torchviz model visualization">
 </a>
 
