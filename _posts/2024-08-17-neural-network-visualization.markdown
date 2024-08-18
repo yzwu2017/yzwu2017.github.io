@@ -33,7 +33,7 @@ netron.start(model_onnx_path)
 ~~~
 执行这个test_netron.py脚本，会自动打开电脑的网页浏览器，有一个页面显示网络结构：
 <a>
-    <img src="../img/posts_img/netron_plot_example.png" width="" height="" alt="Netron plot NN structure">
+    <img src="{{ site.baseurl }}/img/2024-08-17-neural-network-visualization/netron_plot_example.png" width="" height="" alt="Netron plot NN structure">
 </a>
 
 此外，如果想在上图的基础上，显示每一层输出的feature map的尺寸，可以尝试运行下面的脚本：
@@ -58,7 +58,7 @@ netron.start(model_onnx_path)
 
 执行脚本后应该可以看到可视化结果额外显示了中间层输出的feature map尺寸（红圈处）：
 <a>
-    <img src="../img/posts_img/netron_plot_example2.png" width="" height="" alt="Netron plot NN structure">
+    <img src="{{ site.baseurl }}/img/2024-08-17-neural-network-visualization/netron_plot_example2.png" width="" height="" alt="Netron plot NN structure">
 </a>
 
 ## [方法2] 使用torchviz可视化pytorch模型
@@ -102,7 +102,7 @@ vis_graph.render('model_arch')
 ~~~
 执行完脚本后，应该会生成一个叫model_arch.png的图片，如下图：
 <a>
-    <img src="../img/posts_img/torchviz_plot_example.png" width="" height="" alt="torchviz model visualization">
+    <img src="{{ site.baseurl }}/img/2024-08-17-neural-network-visualization/torchviz_plot_example.png" width="" height="" alt="torchviz model visualization">
 </a>
 
 如果要观察更详细的autograd为反向传播保存的信息，可以这样来使用make_dot（加两个输入参数）：
